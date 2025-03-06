@@ -10,5 +10,6 @@ def primos_no_intervalo(inicio, fim):
     return [num for num in range(inicio, fim + 1) if eh_primo(num)]
 
 inicio = 10
-fim = 50
+fim = 100
 print(f'Números primos entre {inicio} e {fim}:', primos_no_intervalo(inicio, fim))
+print ('commit')
